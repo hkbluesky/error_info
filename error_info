@@ -1,0 +1,1045 @@
+node_modules/@jupyterlab/application/lib/shell.d.ts:118:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+118     get currentWidget(): Widget | null;
+            ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/shell.d.ts:122:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+122     get layoutModified(): ISignal<this, void>;
+            ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/shell.d.ts:126:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+126     get leftCollapsed(): boolean;
+            ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/shell.d.ts:130:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+130     get rightCollapsed(): boolean;
+            ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/shell.d.ts:135:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+135     get presentationMode(): boolean;
+            ~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/shell.d.ts:140:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+140     set presentationMode(value: boolean);
+            ~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/shell.d.ts:144:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+144     get mode(): DockPanel.Mode;
+            ~~~~
+
+node_modules/@jupyterlab/application/lib/shell.d.ts:145:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+145     set mode(mode: DockPanel.Mode);
+            ~~~~
+
+node_modules/@jupyterlab/application/lib/shell.d.ts:150:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+150     get restored(): Promise<ILabShell.ILayout>;
+            ~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/status.d.ts:53:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+53     get busySignal(): ISignal<JupyterFrontEnd, boolean>;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/status.d.ts:57:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+57     get dirtySignal(): ISignal<JupyterFrontEnd, boolean>;
+           ~~~~~~~~~~~
+
+node_modules/@jupyterlab/application/lib/status.d.ts:61:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+61     get isBusy(): boolean;
+           ~~~~~~
+
+node_modules/@jupyterlab/application/lib/status.d.ts:65:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+65     get isDirty(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/collapse.d.ts:13:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+13     get widget(): T;
+           ~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/collapse.d.ts:14:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+14     set widget(widget: T);
+           ~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/collapse.d.ts:18:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+18     get collapsed(): boolean;
+           ~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/collapse.d.ts:19:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+19     set collapsed(value: boolean);
+           ~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/collapse.d.ts:23:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+23     get collapseChanged(): ISignal<Collapse, void>;
+           ~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/commandlinker.d.ts:17:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+17     get isDisposed(): boolean;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/iframe.d.ts:19:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+19     get referrerPolicy(): IFrame.ReferrerPolicy;
+           ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/iframe.d.ts:20:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+20     set referrerPolicy(value: IFrame.ReferrerPolicy);
+           ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/iframe.d.ts:34:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+34     get sandbox(): IFrame.SandboxExceptions[];
+           ~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/iframe.d.ts:35:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+35     set sandbox(values: IFrame.SandboxExceptions[]);
+           ~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/iframe.d.ts:39:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+39     get url(): string;
+           ~~~
+
+node_modules/@jupyterlab/apputils/lib/iframe.d.ts:40:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+40     set url(url: string);
+           ~~~
+
+node_modules/@jupyterlab/apputils/lib/mainareawidget.d.ts:28:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+28     get content(): T;
+           ~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/mainareawidget.d.ts:32:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+32     get toolbar(): Toolbar;
+           ~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/mainareawidget.d.ts:36:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+36     get isRevealed(): boolean;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/mainareawidget.d.ts:40:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+40     get revealed(): Promise<void>;
+           ~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:215:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+215     get session(): Session.ISessionConnection | null;
+            ~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:223:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+223     get path(): string;
+            ~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:231:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+231     get type(): string;
+            ~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:239:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+239     get name(): string;
+            ~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:243:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+243     get kernelChanged(): ISignal<this, Session.ISessionConnection.IKernelChangedArgs>;
+            ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:247:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+247     get sessionChanged(): ISignal<this, IChangedArgs<Session.ISessionConnection | null, Session.ISessionConnection | null, 'session'>>;
+            ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:251:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+251     get statusChanged(): ISignal<this, Kernel.Status>;
+            ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:255:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+255     get connectionStatusChanged(): ISignal<this, Kernel.ConnectionStatus>;
+            ~~~~~~~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:259:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+259     get iopubMessage(): ISignal<this, KernelMessage.IIOPubMessage>;
+            ~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:263:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+263     get unhandledMessage(): ISignal<this, KernelMessage.IMessage>;
+            ~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:267:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+267     get propertyChanged(): ISignal<this, 'path' | 'name' | 'type'>;
+            ~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:274:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+274     get kernelPreference(): ISessionContext.IKernelPreference;
+            ~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:275:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+275     set kernelPreference(value: ISessionContext.IKernelPreference);
+            ~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:279:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+279     get isReady(): boolean;
+            ~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:283:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+283     get ready(): Promise<void>;
+            ~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:299:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+299     get kernelDisplayName(): string;
+            ~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:307:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+307     get kernelDisplayStatus(): ISessionContext.KernelDisplayStatus;
+            ~~~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:311:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+311     get prevKernelName(): string;
+            ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:315:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+315     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/sessioncontext.d.ts:319:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+319     get disposed(): ISignal<this, void>;
+            ~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/thememanager.d.ts:19:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+19     get theme(): string | null;
+           ~~~~~
+
+node_modules/@jupyterlab/apputils/lib/thememanager.d.ts:23:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+23     get themes(): ReadonlyArray<string>;
+           ~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/thememanager.d.ts:27:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+27     get themeChanged(): ISignal<this, IChangedArgs<string, string | null>>;
+           ~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/vdom.d.ts:59:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+59     get modelChanged(): ISignal<this, void>;
+           ~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/vdom.d.ts:63:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+63     set model(newValue: T);
+           ~~~~~
+
+node_modules/@jupyterlab/apputils/lib/vdom.d.ts:67:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+67     get model(): T;
+           ~~~~~
+
+node_modules/@jupyterlab/apputils/lib/vdom.d.ts:182:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+182     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts:111:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+111     get currentChanged(): ISignal<this, T | null>;
+            ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts:119:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+119     get currentWidget(): T | null;
+            ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts:123:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+123     get restored(): Promise<void>;
+            ~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts:127:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+127     get size(): number;
+            ~~~~
+
+node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts:135:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+135     get widgetAdded(): ISignal<this, T>;
+            ~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts:139:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+139     get widgetUpdated(): ISignal<this, T>;
+            ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/widgettracker.d.ts:155:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+155     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/apputils/lib/windowresolver.d.ts:25:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+25     get name(): string;
+           ~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/editor.d.ts:179:13 - error TS1086: An accessor cannot be declared in an ambient context.
+
+179         get mimeTypeChanged(): ISignal<this, IChangedArgs<string>>;
+                ~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/editor.d.ts:183:13 - error TS1086: An accessor cannot be declared in an ambient context.
+
+183         get value(): IObservableString;
+                ~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/editor.d.ts:187:13 - error TS1086: An accessor cannot be declared in an ambient context.
+
+187         get selections(): IObservableMap<ITextSelection[]>;
+                ~~~~~~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/editor.d.ts:191:13 - error TS1086: An accessor cannot be declared in an ambient context.
+
+191         get mimeType(): string;
+                ~~~~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/editor.d.ts:192:13 - error TS1086: An accessor cannot be declared in an ambient context.
+
+192         set mimeType(newValue: string);
+                ~~~~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/editor.d.ts:196:13 - error TS1086: An accessor cannot be declared in an ambient context.
+
+196         get isDisposed(): boolean;
+                ~~~~~~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/jsoneditor.d.ts:40:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+40     get source(): IObservableJSON | null;
+           ~~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/jsoneditor.d.ts:41:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+41     set source(value: IObservableJSON | null);
+           ~~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/jsoneditor.d.ts:45:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+45     get isDirty(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/codeeditor/lib/widget.d.ts:19:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+19     get model(): CodeEditor.IModel;
+           ~~~~~
+
+node_modules/@jupyterlab/coreutils/lib/activitymonitor.d.ts:14:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+14     get activityStopped(): ISignal<this, ActivityMonitor.IArguments<Sender, Args>>;
+           ~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/coreutils/lib/activitymonitor.d.ts:18:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+18     get timeout(): number;
+           ~~~~~~~
+
+node_modules/@jupyterlab/coreutils/lib/activitymonitor.d.ts:19:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+19     set timeout(value: number);
+           ~~~~~~~
+
+node_modules/@jupyterlab/coreutils/lib/activitymonitor.d.ts:26:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+26     get isDisposed(): boolean;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:22:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+22     get pathChanged(): ISignal<this, string>;
+           ~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:26:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+26     get fileChanged(): ISignal<this, Contents.IModel>;
+           ~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:30:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+30     get saveState(): ISignal<this, DocumentRegistry.SaveState>;
+           ~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:34:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+34     get disposed(): ISignal<this, void>;
+           ~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:38:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+38     get model(): T;
+           ~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:46:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+46     get path(): string;
+           ~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:52:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+52     get localPath(): string;
+           ~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:60:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+60     get contentsModel(): Contents.IModel | null;
+           ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:67:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+67     get factoryName(): string;
+           ~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:71:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+71     get isDisposed(): boolean;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:79:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+79     get isReady(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/context.d.ts:83:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+83     get ready(): Promise<void>;
+           ~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:21:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+21     get contentChanged(): ISignal<this, void>;
+           ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:25:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+25     get stateChanged(): ISignal<this, IChangedArgs<any>>;
+           ~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:29:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+29     get dirty(): boolean;
+           ~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:30:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+30     set dirty(newValue: boolean);
+           ~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:34:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+34     get readOnly(): boolean;
+           ~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:35:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+35     set readOnly(newValue: boolean);
+           ~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:42:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+42     get defaultKernelName(): string;
+           ~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:49:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+49     get defaultKernelLanguage(): string;
+           ~~~~~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:100:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+100     get name(): string;
+            ~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:107:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+107     get contentType(): Contents.ContentType;
+            ~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:113:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+113     get fileFormat(): Contents.FileFormat;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:117:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+117     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:146:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+146     get name(): string;
+            ~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:153:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+153     get contentType(): Contents.ContentType;
+            ~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:159:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+159     get fileFormat(): Contents.FileFormat;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:172:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+172     get widgetCreated(): ISignal<DocumentRegistry.IWidgetFactory<T, U>, T>;
+            ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:176:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+176     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:184:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+184     get readOnly(): boolean;
+            ~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:188:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+188     get name(): string;
+            ~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:192:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+192     get fileTypes(): string[];
+            ~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:196:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+196     get modelName(): string;
+            ~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:200:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+200     get defaultFor(): string[];
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:205:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+205     get defaultRendered(): string[];
+            ~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:209:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+209     get preferKernel(): boolean;
+            ~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:213:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+213     get canStartKernel(): boolean;
+            ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:217:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+217     get shutdownOnClose(): boolean;
+            ~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/default.d.ts:218:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+218     set shutdownOnClose(value: boolean);
+            ~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/mimedocument.d.ts:26:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+26     get ready(): Promise<void>;
+           ~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/registry.d.ts:24:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+24     get changed(): ISignal<this, DocumentRegistry.IChangedArgs>;
+           ~~~~~~~
+
+node_modules/@jupyterlab/docregistry/lib/registry.d.ts:28:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+28     get isDisposed(): boolean;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/modeldb.d.ts:219:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+219     get type(): 'Value';
+            ~~~~
+
+node_modules/@jupyterlab/observables/lib/modeldb.d.ts:223:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+223     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/modeldb.d.ts:227:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+227     get changed(): ISignal<this, ObservableValue.IChangedArgs>;
+            ~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/modeldb.d.ts:275:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+275     get basePath(): string;
+            ~~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/modeldb.d.ts:279:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+279     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/observablelist.d.ts:279:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+279     get type(): 'List';
+            ~~~~
+
+node_modules/@jupyterlab/observables/lib/observablelist.d.ts:283:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+283     get changed(): ISignal<this, IObservableList.IChangedArgs<T>>;
+            ~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/observablelist.d.ts:287:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+287     get length(): number;
+            ~~~~~~
+
+node_modules/@jupyterlab/observables/lib/observablelist.d.ts:291:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+291     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/observablemap.d.ts:130:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+130     get type(): 'Map';
+            ~~~~
+
+node_modules/@jupyterlab/observables/lib/observablemap.d.ts:134:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+134     get changed(): ISignal<this, IObservableMap.IChangedArgs<T>>;
+            ~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/observablemap.d.ts:138:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+138     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/observablemap.d.ts:142:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+142     get size(): number;
+            ~~~~
+
+node_modules/@jupyterlab/observables/lib/observablestring.d.ts:108:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+108     get type(): 'String';
+            ~~~~
+
+node_modules/@jupyterlab/observables/lib/observablestring.d.ts:112:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+112     get changed(): ISignal<this, IObservableString.IChangedArgs>;
+            ~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/observablestring.d.ts:116:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+116     set text(value: string);
+            ~~~~
+
+node_modules/@jupyterlab/observables/lib/observablestring.d.ts:120:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+120     get text(): string;
+            ~~~~
+
+node_modules/@jupyterlab/observables/lib/observablestring.d.ts:144:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+144     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/undoablelist.d.ts:64:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+64     get canRedo(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/observables/lib/undoablelist.d.ts:68:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+68     get canUndo(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/rendermime/lib/attachmentmodel.d.ts:47:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+47     get changed(): ISignal<this, void>;
+           ~~~~~~~
+
+node_modules/@jupyterlab/rendermime/lib/attachmentmodel.d.ts:55:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+55     get data(): ReadonlyPartialJSONObject;
+           ~~~~
+
+node_modules/@jupyterlab/rendermime/lib/attachmentmodel.d.ts:59:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+59     get metadata(): ReadonlyPartialJSONObject;
+           ~~~~~~~~
+
+node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts:18:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+18     get data(): ReadonlyPartialJSONObject;
+           ~~~~
+
+node_modules/@jupyterlab/rendermime/lib/mimemodel.d.ts:22:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+22     get metadata(): ReadonlyPartialJSONObject;
+           ~~~~~~~~
+
+node_modules/@jupyterlab/rendermime/lib/outputmodel.d.ts:63:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+63     get changed(): ISignal<this, void>;
+           ~~~~~~~
+
+node_modules/@jupyterlab/rendermime/lib/outputmodel.d.ts:83:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+83     get data(): ReadonlyPartialJSONObject;
+           ~~~~
+
+node_modules/@jupyterlab/rendermime/lib/outputmodel.d.ts:87:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+87     get metadata(): ReadonlyPartialJSONObject;
+           ~~~~~~~~
+
+node_modules/@jupyterlab/rendermime/lib/registry.d.ts:43:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+43     get mimeTypes(): ReadonlyArray<string>;
+           ~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/basemanager.d.ts:33:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+33     get disposed(): ISignal<this, void>;
+           ~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/basemanager.d.ts:41:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+41     get isDisposed(): boolean;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/builder/index.d.ts:17:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+17     get isAvailable(): boolean;
+           ~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/builder/index.d.ts:21:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+21     get shouldCheck(): boolean;
+           ~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/contents/index.d.ts:470:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+470     get fileChanged(): ISignal<this, Contents.IChangedArgs>;
+            ~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/contents/index.d.ts:474:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+474     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/contents/index.d.ts:686:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+686     get fileChanged(): ISignal<this, Contents.IChangedArgs>;
+            ~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/contents/index.d.ts:694:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+694     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/kernel/manager.d.ts:25:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+25     get isReady(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/services/lib/kernel/manager.d.ts:29:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+29     get ready(): Promise<void>;
+           ~~~~~
+
+node_modules/@jupyterlab/services/lib/kernel/manager.d.ts:33:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+33     get runningChanged(): ISignal<this, Kernel.IModel[]>;
+           ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/kernel/manager.d.ts:37:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+37     get connectionFailure(): ISignal<this, Error>;
+           ~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/kernelspec/manager.d.ts:24:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+24     get isReady(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/services/lib/kernelspec/manager.d.ts:28:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+28     get ready(): Promise<void>;
+           ~~~~~
+
+node_modules/@jupyterlab/services/lib/kernelspec/manager.d.ts:32:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+32     get specs(): restapi.ISpecModels | null;
+           ~~~~~
+
+node_modules/@jupyterlab/services/lib/kernelspec/manager.d.ts:36:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+36     get specsChanged(): ISignal<this, restapi.ISpecModels>;
+           ~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/kernelspec/manager.d.ts:40:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+40     get connectionFailure(): ISignal<this, Error>;
+           ~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/manager.d.ts:24:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+24     get connectionFailure(): ISignal<this, Error>;
+           ~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/manager.d.ts:28:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+28     get isDisposed(): boolean;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/manager.d.ts:72:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+72     get isReady(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/services/lib/manager.d.ts:76:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+76     get ready(): Promise<void>;
+           ~~~~~
+
+node_modules/@jupyterlab/services/lib/session/manager.d.ts:25:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+25     get isReady(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/services/lib/session/manager.d.ts:29:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+29     get ready(): Promise<void>;
+           ~~~~~
+
+node_modules/@jupyterlab/services/lib/session/manager.d.ts:33:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+33     get runningChanged(): ISignal<this, Session.IModel[]>;
+           ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/session/manager.d.ts:37:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+37     get connectionFailure(): ISignal<this, Error>;
+           ~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/terminal/manager.d.ts:22:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+22     get isReady(): boolean;
+           ~~~~~~~
+
+node_modules/@jupyterlab/services/lib/terminal/manager.d.ts:26:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+26     get ready(): Promise<void>;
+           ~~~~~
+
+node_modules/@jupyterlab/services/lib/terminal/manager.d.ts:30:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+30     get runningChanged(): ISignal<this, Terminal.IModel[]>;
+           ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/terminal/manager.d.ts:34:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+34     get connectionFailure(): ISignal<this, Error>;
+           ~~~~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/services/lib/terminal/manager.d.ts:94:17 - error TS1086: An accessor cannot be declared in an ambient context.
+
+94     private get _models();
+                   ~~~~~~~
+
+node_modules/@jupyterlab/services/lib/terminal/manager.d.ts:94:17 - error TS7033: Property '_models' implicitly has type 'any', because its get accessor lacks a return type annotation.
+
+94     private get _models();
+                   ~~~~~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:115:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+115     get pluginChanged(): ISignal<this, string>;
+            ~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:251:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+251     get changed(): ISignal<this, void>;
+            ~~~~~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:255:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+255     get composite(): ReadonlyPartialJSONObject;
+            ~~~~~~~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:259:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+259     get isDisposed(): boolean;
+            ~~~~~~~~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:260:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+260     get plugin(): ISettingRegistry.IPlugin;
+            ~~~~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:264:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+264     get schema(): ISettingRegistry.ISchema;
+            ~~~~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:268:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+268     get raw(): string;
+            ~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:272:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+272     get user(): ReadonlyPartialJSONObject;
+            ~~~~
+
+node_modules/@jupyterlab/settingregistry/lib/settingregistry.d.ts:276:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+276     get version(): string;
+            ~~~~~~~
+
+node_modules/@jupyterlab/statedb/lib/restorablepool.d.ts:27:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+27     get added(): ISignal<this, T>;
+           ~~~~~
+
+node_modules/@jupyterlab/statedb/lib/restorablepool.d.ts:37:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+37     get current(): T | null;
+           ~~~~~~~
+
+node_modules/@jupyterlab/statedb/lib/restorablepool.d.ts:38:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+38     set current(obj: T | null);
+           ~~~~~~~
+
+node_modules/@jupyterlab/statedb/lib/restorablepool.d.ts:42:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+42     get currentChanged(): ISignal<this, T | null>;
+           ~~~~~~~~~~~~~~
+
+node_modules/@jupyterlab/statedb/lib/restorablepool.d.ts:46:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+46     get isDisposed(): boolean;
+           ~~~~~~~~~~
+
+node_modules/@jupyterlab/statedb/lib/restorablepool.d.ts:50:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+50     get restored(): Promise<void>;
+           ~~~~~~~~
+
+node_modules/@jupyterlab/statedb/lib/restorablepool.d.ts:54:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+54     get size(): number;
+           ~~~~
+
+node_modules/@jupyterlab/statedb/lib/restorablepool.d.ts:58:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+58     get updated(): ISignal<this, T>;
+           ~~~~~~~
+
+node_modules/@jupyterlab/statedb/lib/statedb.d.ts:18:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+18     get changed(): ISignal<this, StateDB.Change>;
+           ~~~~~~~
+
+node_modules/@jupyterlab/ui-components/lib/icon/labicon.d.ts:139:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+139     get svgstr(): string;
+            ~~~~~~
+
+node_modules/@jupyterlab/ui-components/lib/icon/labicon.d.ts:140:9 - error TS1086: An accessor cannot be declared in an ambient context.
+
+140     set svgstr(svgstr: string);
+            ~~~~~~
+
+src/index.ts:27:39 - error TS2322: Type 'import("/private/var/www/JupyterLab/jupyterlab_ext/jupyterlab_apod/node_modules/@phosphor/widgets/lib/widget").Widget' is not assignable to type 'import("/private/var/www/JupyterLab/jupyterlab_ext/jupyterlab_apod/node_modules/@lumino/widgets/lib/widget").Widget'.
+  Types of property 'title' are incompatible.
+    Type 'Title<Widget>' is missing the following properties from type 'Title<Widget>': iconRenderer, _icon
+
+27    const widget = new MainAreaWidget({content});
+                                         ~~~~~~~
+
+  node_modules/@jupyterlab/apputils/lib/mainareawidget.d.ts:83:9
+    83         content: T;
+               ~~~~~~~
+    The expected type comes from property 'content' which is declared here on type 'IOptions<Widget>'
+
+src/index.ts:42:20 - error TS1308: 'await' expression is only allowed within an async function.
+
+42  	const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${randomDate()}`);
+    	                 ~~~~~
+
+  src/index.ts:22:12
+    22  activate: (app: JupyterFrontEnd, palette: ICommandPalette) => {
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Did you mean to mark this function as 'async'?
+
+src/index.ts:43:16 - error TS1308: 'await' expression is only allowed within an async function.
+
+43  	const data = await response.json() as APODResponse;
+    	             ~~~~~
+
+  src/index.ts:22:12
+    22  activate: (app: JupyterFrontEnd, palette: ICommandPalette) => {
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Did you mean to mark this function as 'async'?
+
+src/index.ts:43:41 - error TS2304: Cannot find name 'APODResponse'.
+
+43  	const data = await response.json() as APODResponse;
+    	                                      ~~~~~~~~~~~~
+
+
+Found 424 errors.
+
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
+
